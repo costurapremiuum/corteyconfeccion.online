@@ -313,6 +313,7 @@ export const courses: Course[] = [
     { question: '¿Aplica para mi máquina?', answer: 'Sí, el curso cubre los principios universales de las máquinas de confección, tanto familiares como industriales.' },
     { question: '¿Necesito ser experta?', answer: 'No, te llevamos paso a paso con videos en alta definición para que cualquiera pueda realizar los ajustes.' }
   ]
+  
 },
 {
       id: '13',
@@ -371,7 +372,32 @@ export const courses: Course[] = [
     { question: '¿Qué tipo de máquina necesito?', answer: 'Se recomienda una máquina que realice puntada zigzag o una máquina recubridora para acabados profesionales en telas elásticas.' }
   ]
   },
-
-
-
-];
+  {
+      id: '9',
+      slug: 'emprende-con-camisetas',
+      title: 'Emprende con Camisetas',
+      shortDescription: 'Aprende a confeccionar camisetas de alta calidad y escala tu propio negocio de moda básica.',
+      longDescription: 'Domina el proceso completo de confección de camisetas: desde la toma de medidas y el manejo de máquinas hasta el corte, confección y estrategias de marketing para vender tus creaciones. Un curso enfocado en la productividad y la calidad para quienes buscan emprender en el nicho de moda básica.',
+      level: 'Principiante',
+      price: 14.00,
+      hotmartLinks: {
+        standard: 'https://go.hotmart.com/Q106562159L?dp=1',
+        promo: 'https://go.hotmart.com/Q106562159L?ap=14e1'
+      },
+      badges: { isPromo: true, hasFreeClass: false, isFeatured: true },
+      category: 'especialidades',
+      quizTags: {
+        experience: ['principiante', 'intermedio'],
+        learnType: ['costura-basica'],
+        garmentType: ['casual'],
+        machine: ['si'],
+        purpose: ['negocio'],
+        challenge: ['maquina'],
+        goal: ['crear-marca', 'vender-medida']
+      },
+      benefits: ['Confección de camisetas desde cero', 'Marketing para marcas de moda', 'Estrategias de venta', 'Toma de medidas'],
+      faqs: [
+        { question: '¿Incluye moldes?', answer: 'Sí, el curso te enseña a manejar los moldes necesarios para la producción de camisetas.' }
+      ]
+    }
+  ];
