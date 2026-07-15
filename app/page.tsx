@@ -1,12 +1,13 @@
 import { courses } from '../data/courses';
 import QuizWizard from '../components/QuizWizard';
+import SubscriptionSection from '../components/SubscriptionSection';
 
 export default function HomePage() {
   const featuredCourses = courses.filter(c => c.badges.isFeatured);
 
   return (
     <div className="bg-[#FAF9F6] min-h-screen">
-      {/* 1. SECCIÓN HERO (Primer Impacto) */}
+      {/* 1. SECCIÓN HERO */}
       <section className="pt-24 pb-16 px-6 text-center max-w-4xl mx-auto">
         <span className="text-xs uppercase font-extrabold tracking-widest text-[#708090] bg-[#708090]/10 px-4 py-1.5 rounded-full inline-block mb-6">
           Academia Digital de Alta Costura y Diseño
@@ -33,7 +34,10 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 2. BARRA DE CONFIANZA */}
+      {/* 2. SECCIÓN SUSCRIPCIÓN (MAESTRÍA INTEGRADA) */}
+      <SubscriptionSection />
+
+      {/* 3. BARRA DE CONFIANZA */}
       <section className="bg-white border-y border-[#E0DCD3] py-8 px-6">
         <div className="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
           <div>
@@ -42,31 +46,31 @@ export default function HomePage() {
           </div>
           <div>
             <span className="text-2xl font-serif font-bold text-[#222222]">Pago Único</span>
-            <p className="text-xs text-[#222222]/60 mt-1">Acceso de por vida sin mensualidades</p>
+            <p className="text-xs text-[#222222]/60 mt-1">Acceso de por vida</p>
           </div>
           <div>
-            <span className="text-2xl font-serif font-bold text-[#222222]">7 Días de Garantía</span>
-            <p className="text-xs text-[#222222]/60 mt-1">Garantía total avalada por Hotmart</p>
+            <span className="text-2xl font-serif font-bold text-[#222222]">7 Días</span>
+            <p className="text-xs text-[#222222]/60 mt-1">Garantía total</p>
           </div>
           <div>
-            <span className="text-2xl font-serif font-bold text-[#222222]">Alumnas Felices</span>
-            <p className="text-xs text-[#222222]/60 mt-1">Comunidad internacional</p>
+            <span className="text-2xl font-serif font-bold text-[#222222]">Comunidad</span>
+            <p className="text-xs text-[#222222]/60 mt-1">Soporte internacional</p>
           </div>
         </div>
       </section>
 
-      {/* 3. SECCIÓN DEL QUIZ (CONVERSIÓN DIRECTA) */}
+      {/* 4. SECCIÓN DEL QUIZ */}
       <section id="quiz" className="py-20 px-6 max-w-5xl mx-auto scroll-mt-10">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-serif font-semibold text-[#222222]">¿No sabes con cuál curso iniciar?</h2>
           <p className="text-[#222222]/60 mt-2 max-w-md mx-auto text-sm">
-            Nuestros 14 programas abarcan desde costura de faldas hasta vestidos de novia. Usa este asesor automatizado de 2 minutos para tomar la decisión perfecta.
+            Usa este asesor automatizado de 2 minutos para tomar la decisión perfecta.
           </p>
         </div>
         <QuizWizard />
       </section>
 
-      {/* 4. PROGRAMAS DESTACADOS (CATÁLOGO) */}
+      {/* 5. CATÁLOGO */}
       <section id="catalogo" className="py-20 px-6 max-w-6xl mx-auto scroll-mt-10">
         <div className="text-center mb-14">
           <span className="text-xs font-bold uppercase tracking-widest text-[#708090]">Nuestros Cursos Favoritos</span>
@@ -76,62 +80,18 @@ export default function HomePage() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {featuredCourses.map((course) => (
             <article key={course.id} className="bg-white rounded-3xl overflow-hidden border border-[#E0DCD3] shadow-sm flex flex-col group hover:-translate-y-1 transition-all">
-              <div className="aspect-[16/10] bg-[#FAF9F6] relative border-b border-[#E0DCD3] p-6 flex flex-col justify-between">
-                <div className="flex gap-1.5 flex-wrap">
-                  {course.badges.isPromo && (
-                    <span className="bg-[#E07A5F] text-white text-[9px] font-bold tracking-wider uppercase px-2.5 py-1 rounded-full">
-                      Oferta Limitada
-                    </span>
-                  )}
-                  {course.badges.hasFreeClass && (
-                    <span className="bg-[#708090] text-white text-[9px] font-bold tracking-wider uppercase px-2.5 py-1 rounded-full">
-                      Clase Gratis
-                    </span>
-                  )}
-                </div>
-                <div className="w-12 h-12 rounded-full bg-white border border-[#E0DCD3] flex items-center justify-center">
-                  ✂️
-                </div>
-              </div>
               <div className="p-6 flex-1 flex flex-col">
-                <span className="text-[10px] font-extrabold text-[#708090] uppercase tracking-widest">{course.level}</span>
-                <h3 className="font-serif font-semibold text-xl text-[#222222] mt-2 mb-3 line-clamp-1">{course.title}</h3>
+                <h3 className="font-serif font-semibold text-xl text-[#222222] mt-2 mb-3">{course.title}</h3>
                 <p className="text-sm text-[#222222]/70 line-clamp-3 mb-6 leading-relaxed">{course.shortDescription}</p>
-                
                 <div className="mt-auto pt-4 border-t border-[#E0DCD3] flex items-center justify-between">
-                  <div>
-                    {course.promoPrice ? (
-                      <div>
-                        <span className="text-xl font-serif font-extrabold text-[#222222]">${course.promoPrice}</span>
-                        <span className="text-xs text-[#222222]/40 line-through ml-2">${course.price}</span>
-                      </div>
-                    ) : (
-                      <span className="text-xl font-serif font-extrabold text-[#222222]">${course.price}</span>
-                    )}
-                  </div>
-                  <a 
-                    href={course.hotmartLinks.promo || course.hotmartLinks.standard}
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="bg-[#E07A5F] hover:bg-[#c9694e] text-white px-5 py-2.5 rounded-xl text-xs font-semibold shadow-sm transition-colors"
-                  >
+                  <span className="text-xl font-serif font-extrabold text-[#222222]">${course.promoPrice || course.price}</span>
+                  <a href={course.hotmartLinks.promo || course.hotmartLinks.standard} className="bg-[#E07A5F] hover:bg-[#c9694e] text-white px-5 py-2.5 rounded-xl text-xs font-semibold shadow-sm transition-colors">
                     Inscribirme
                   </a>
                 </div>
               </div>
             </article>
           ))}
-        </div>
-      </section>
-
-      {/* 5. MENSAJE FINAL DE CONVERSIÓN */}
-      <section className="bg-white border-t border-[#E0DCD3] py-20 px-6 text-center">
-        <div className="max-w-2xl mx-auto">
-          <h2 className="text-3xl font-serif font-bold text-[#222222] mb-4">Garantía Total de Satisfacción de 7 Días</h2>
-          <p className="text-[#222222]/70 leading-relaxed mb-8">
-            Inscríbete hoy con total seguridad. Si dentro de los primeros 7 días sientes que no estás logrando los acabados profesionales que deseas, puedes solicitar la devolución del 100% de tu dinero de manera automática a través de la plataforma de Hotmart.
-          </p>
-          <span className="text-[#D4AF37] font-bold text-lg">🛡️ Compra segura con garantía de reembolso</span>
         </div>
       </section>
     </div>

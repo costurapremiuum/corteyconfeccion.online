@@ -34,395 +34,344 @@ export interface Course {
 export const courses: Course[] = [
   {
     id: '1',
-    slug: 'costura-premium-plus',
-    title: 'Corte y Confección: Alta Costura Premium',
-    shortDescription: 'Pasa de principiante a confeccionar vestidos de gala y prendas a medida con acabados profesionales de boutique.',
-    longDescription: 'El programa más completo de habla hispana. Aprenderás desde cómo enhebrar tu máquina hasta patronaje avanzado, transformación de moldes y costuras invisibles para vestidos de alta noche.',
-    level: 'Todos los niveles',
-    price: 99.99,
-    promoPrice: 49.99,
+    slug: 'camisas-nino-isabel-villagomez',
+    title: 'Costura Sin Estrés: Camisas de Niño',
+    shortDescription: 'Aprende a confeccionar camisas de niño paso a paso con técnicas sencillas y acabados profesionales.',
+    longDescription: 'El curso perfecto para quienes buscan resultados impecables sin complicaciones. Domina el corte y confección de camisas infantiles, ideal tanto para uso personal como para emprender un negocio rentable.',
+    level: 'Principiante',
+    price: 24.99,
+    promoPrice: 15.00,
     hotmartLinks: {
-      standard: 'https://hotmart.com/product/link-estandar-1',
-      promo: 'https://hotmart.com/product/link-promo-1',
-      freeClass: 'https://hotmart.com/product/clase-gratis-1'
+      standard: 'https://go.hotmart.com/R106585358N',
+      promo: 'https://go.hotmart.com/R106585358N?ap=b506',
     },
-    badges: { isPromo: true, hasFreeClass: true, isFeatured: true },
-    category: 'alta-costura',
+    badges: { isPromo: true, hasFreeClass: false, isFeatured: true },
+    category: 'especialidades',
     quizTags: {
       experience: ['principiante', 'intermedio'],
-      learnType: ['alta-costura', 'costura-basica'],
-      garmentType: ['vestidos', 'casual'],
-      machine: ['si', 'no'],
+      learnType: ['costura-basica'],
+      garmentType: ['casual'],
+      machine: ['si'],
       purpose: ['hobby', 'negocio'],
-      challenge: ['patrones', 'acabados'],
+      challenge: ['maquina', 'acabados'],
       goal: ['ropa-propia', 'vender-medida']
     },
-    benefits: ['Acceso de por vida a más de 80 lecciones en HD', 'Certificado de finalización descargable', 'Asesoría directa en el área de alumnas'],
+    benefits: ['Técnicas de costura sin estrés', 'Guía paso a paso en video', 'Resultados profesionales garantizados'],
     faqs: [
-      { question: '¿Necesito experiencia previa?', answer: 'No, este curso está diseñado para guiarte desde el absoluto cero.' },
-      { question: '¿Cómo recibo el acceso?', answer: 'De forma inmediata en tu correo electrónico tras realizar el pago a través de Hotmart.' }
+      { question: '¿Es apto para principiantes?', answer: 'Sí, el curso está diseñado para que cualquiera pueda lograr resultados profesionales desde cero.' }
     ]
   },
   {
     id: '2',
-    slug: 'patronaje-industrial-moldes',
-    title: 'Patronaje Industrial y Confección de Faldas',
-    shortDescription: 'Domina el diseño y escalado de patrones industriales de faldas comerciales listas para vender.',
-    longDescription: 'Aprende las técnicas de patronaje de mesa usadas por las grandes marcas textiles para crear faldas perfectas, entalladas y escaladas en todas las tallas estándar.',
+    slug: 'patrones-premium-ropa-deportiva',
+    title: 'Patrones Premium: Ropa Deportiva',
+    shortDescription: 'Colección de patrones profesionales para confeccionar ropa deportiva de alto rendimiento.',
+    longDescription: 'Accede a una serie de moldes diseñados para crear calzas, tops y ropa deportiva con un ajuste profesional. Ideales para iniciar tu emprendimiento de moda fitness.',
     level: 'Intermedio',
-    price: 59.99,
-    promoPrice: 29.99,
+    price: 14.00,
     hotmartLinks: {
-      standard: 'https://hotmart.com/product/link-estandar-2',
-      promo: 'https://hotmart.com/product/link-promo-2'
+      standard: 'https://go.hotmart.com/F106590078S?ap=2c7f',
     },
-    badges: { isPromo: true, hasFreeClass: false, isFeatured: true },
+    badges: { isPromo: false, hasFreeClass: false, isFeatured: true },
     category: 'patronaje',
     quizTags: {
       experience: ['intermedio', 'avanzado'],
       learnType: ['patronaje'],
-      garmentType: ['casual'],
+      garmentType: ['lenceria'],
       machine: ['si'],
       purpose: ['negocio'],
       challenge: ['patrones'],
       goal: ['crear-marca', 'vender-medida']
     },
-    benefits: ['Patrones base descargables listos para imprimir', 'Técnicas de escalado industrial de tallas', 'Grupo de soporte en Telegram'],
+    benefits: ['Patrones profesionales listos para imprimir', 'Diseños ajustables para diversas tallas', 'Ideal para venta de prendas'],
     faqs: [
-      { question: '¿Incluye patrones en PDF?', answer: 'Sí, incluye plantillas listas para imprimir en formato PDF tamaño real.' }
+      { question: '¿Incluye los patrones en PDF?', answer: 'Sí, son patrones descargables y listos para imprimir.' }
     ]
   },
   {
     id: '3',
-    slug: 'costura-decorativa-hogar',
-    title: 'Costura de Cero a Pro: Decoración de Hogar',
-    shortDescription: 'Aprende a confeccionar sábanas, cojines, cortinas y organizadores de tela para embellecer tu espacio.',
-    longDescription: 'Descubre los secretos de la costura lineal y decorativa. Transforma telas comunes en accesorios elegantes, cortinas perfectas y mantelería fina de nivel profesional.',
-    level: 'Principiante',
-    price: 39.99,
+    slug: 'especializacion-blusas',
+    title: 'Especialización en Blusas',
+    shortDescription: 'Aprende a desarrollar blusas desde la base, ajustándolas a la morfología corporal para crear patrones personalizados.',
+    longDescription: 'En este plan de estudio aprenderás a desarrollar blusas desde la base, comprendiendo cómo tomar medidas según la morfología del cuerpo y trasladarlas al papel para crear patrones personalizados. A lo largo del proceso, trabajarás en el diseño, realizando ajustes y modificaciones según el estilo deseado.',
+    level: 'Intermedio',
+    price: 14.99,
     hotmartLinks: {
-      standard: 'https://hotmart.com/product/link-estandar-3',
-      freeClass: 'https://hotmart.com/product/clase-gratis-3'
+      standard: 'https://go.hotmart.com/S106590131G?dp=1',
+      promo: 'https://go.hotmart.com/S106590131G?ap=8025'
     },
-    badges: { isPromo: false, hasFreeClass: true, isFeatured: false },
-    category: 'costura-basica',
+    badges: { isPromo: false, hasFreeClass: false, isFeatured: true },
+    category: 'patronaje',
     quizTags: {
-      experience: ['principiante'],
-      learnType: ['costura-basica'],
+      experience: ['intermedio'],
+      learnType: ['patronaje'],
       garmentType: ['casual'],
-      machine: ['si', 'no'],
-      purpose: ['hobby'],
-      challenge: ['maquina'],
-      goal: ['ropa-propia']
+      machine: ['si'],
+      purpose: ['hobby', 'negocio'],
+      challenge: ['patrones'],
+      goal: ['ropa-propia', 'vender-medida']
     },
-    benefits: ['Proyectos sencillos de rápida costura', 'Guías de compra de telas para el hogar', 'Ahorra dinero decorando tu casa'],
+    benefits: ['Toma de medidas profesional', 'Patronaje desde la base', 'Modificación de diseños'],
     faqs: [
-      { question: '¿Es apto para máquinas familiares?', answer: 'Sí, todos los proyectos se realizan con costura recta básica.' }
+      { question: '¿Es apto para principiantes?', answer: 'Está enfocado en desarrollar desde la base, por lo que es ideal para quienes ya tienen nociones básicas.' }
     ]
   },
   {
     id: '4',
-    slug: 'sastreria-masculina-moderna',
-    title: 'Sastrería Masculina y Sacos Modernos',
-    shortDescription: 'Domina las técnicas tradicionales de sastrería para confeccionar sacos, chalecos y pantalones de caballero.',
-    longDescription: 'Adéntrate en el sector más lucrativo de la costura. Aprende la arquitectura del saco masculino, técnicas de hombreras, entretelado clásico y bolsillos de ojal perfectos.',
-    level: 'Avanzado',
-    price: 119.99,
-    promoPrice: 59.99,
+    slug: 'costura-infantil-premium',
+    title: 'Costura Infantil Premium',
+    shortDescription: 'Aprende a diseñar y confeccionar prendas infantiles con técnicas de patronaje desde cero.',
+    longDescription: 'En este curso aprenderás a diseñar prendas infantiles, afinando tus técnicas desde lo básico a lo avanzado. Te llevaremos de la mano hasta que desarrolles tu primera prenda, sin necesidad de patrones previos. Aprenderás a confeccionar ropa de alta calidad, a tomar medidas y a crear tus propios patrones desde cero.',
+    level: 'Principiante',
+    price: 79.99,
     hotmartLinks: {
-      standard: 'https://hotmart.com/product/link-estandar-4',
-      promo: 'https://hotmart.com/product/link-promo-4',
-      freeClass: 'https://hotmart.com/product/clase-gratis-4'
+      standard: 'https://go.hotmart.com/R82849870U?ap=9dab',
+      freeClass: 'https://go.hotmart.com/R82849870U?ap=8db0'
     },
-    badges: { isPromo: true, hasFreeClass: true, isFeatured: true },
-    category: 'alta-costura',
+    badges: { isPromo: false, hasFreeClass: true, isFeatured: true },
+    category: 'especialidades',
     quizTags: {
-      experience: ['avanzado'],
-      learnType: ['alta-costura', 'patronaje'],
-      garmentType: ['sastreria'],
+      experience: ['principiante', 'intermedio'],
+      learnType: ['costura-basica'],
+      garmentType: ['casual'],
       machine: ['si'],
-      purpose: ['negocio'],
-      challenge: ['acabados', 'patrones'],
-      goal: ['vender-medida', 'crear-marca']
+      purpose: ['hobby', 'negocio'],
+      challenge: ['maquina', 'acabados'],
+      goal: ['crear-marca', 'ropa-propia']
     },
-    benefits: ['Técnicas de forrado interno profesional', 'Trazado clásico a tiza sobre tela', 'Soporte personalizado'],
+    benefits: ['Diseño de prendas infantiles', 'Patronaje desde cero', 'Técnicas de alta calidad'],
     faqs: [
-      { question: '¿Necesito máquina industrial?', answer: 'No, puedes confeccionarlo con máquina familiar, se explican adaptaciones.' }
+      { question: '¿Es apto para principiantes?', answer: 'Sí, el curso está diseñado para llevarte de la mano desde cero hasta que crees tus primeros diseños.' }
     ]
   },
   {
     id: '5',
-    slug: 'lenceria-fina-ropa-interior',
-    title: 'Diseño y Confección de Lencería Fina',
-    shortDescription: 'Crea conjuntos de ropa interior, encajes, bralettes y bodys ajustados al cuerpo con acabados premium.',
-    longDescription: 'Aprende a trabajar con telas elásticas como lycra y encaje elástico. Confecciona sostenes con arco, bralettes modernos y pantis cómodas con costuras suaves e invisibles.',
-    level: 'Intermedio',
-    price: 49.99,
+    slug: 'diseno-moda-premium',
+    title: 'Diseño de Moda Premium',
+    shortDescription: 'Descubre tu estilo personal y aprende a dibujar figurines profesionales desde cero, incluso sin experiencia previa.',
+    longDescription: 'Sumérgete en el mundo del diseño de moda. Aprende la historia de la moda, cómo dibujar figurines de manera profesional, y descubre cómo aplicar los 7 estilos universales para definir tu propia identidad creativa o la de tu marca.',
+    level: 'Principiante',
+    price: 59.99,
+    promoPrice: 29.99,
     hotmartLinks: {
-      standard: 'https://hotmart.com/product/link-estandar-5'
+      standard: 'https://go.hotmart.com/A106562256Q?dp=1',
+      promo: 'https://go.hotmart.com/A106562256Q?ap=9850',
     },
-    badges: { isPromo: false, hasFreeClass: false, isFeatured: false },
+    badges: { isPromo: true, hasFreeClass: false, isFeatured: true },
     category: 'especialidades',
     quizTags: {
-      experience: ['intermedio'],
-      learnType: ['alta-costura', 'costura-basica'],
-      garmentType: ['lenceria'],
-      machine: ['si'],
-      purpose: ['negocio', 'hobby'],
-      challenge: ['acabados'],
-      goal: ['crear-marca', 'ropa-propia']
+      experience: ['principiante'],
+      learnType: ['alta-costura'],
+      garmentType: ['casual'],
+      machine: ['no'],
+      purpose: ['hobby'],
+      challenge: ['patrones'],
+      goal: ['crear-marca']
     },
-    benefits: ['Patrones listos en tallas XS a XL', 'Costura con máquina familiar (Zig-zag)', 'Uso correcto de elásticos'],
+    benefits: ['Historia de la moda', 'Dibujo de figurines profesionales', 'Análisis de los 7 estilos universales', 'Definición de estilo personal'],
     faqs: [
-      { question: '¿Se necesita máquina Overlock?', answer: 'No, aprenderás a usar la puntada de tres pasos en máquina familiar.' }
+      { question: '¿Necesito saber dibujar?', answer: 'No, el curso está diseñado para principiantes y te enseñará paso a paso técnicas de dibujo de figurines.' }
     ]
   },
   {
     id: '6',
-    slug: 'novias-y-gala-corseteria',
-    title: 'Especialista en Vestidos de Novia y Corsetería',
-    shortDescription: 'Aprende la técnica de armado de corsés estructurados con ballenas para vestidos de novia y quinceañeras.',
-    longDescription: 'Conviértete en una costurera altamente cotizada aprendiendo corsetería fina. Estructuración con copas, varillas de metal y espaldas acordonadas con ojales impecables.',
-    level: 'Avanzado',
-    price: 149.99,
-    promoPrice: 74.99,
+    slug: 'costura-premium-masculina',
+    title: 'Costura Premium Línea Masculina',
+    shortDescription: 'Domina el arte de la confección masculina con técnicas premium y acabados profesionales.',
+    longDescription: 'Aprende las bases de la sastrería y confección masculina. Domina los cortes, estructuras y acabados necesarios para crear prendas masculinas de alta calidad, desde camisas hasta pantalones. Un curso diseñado para elevar tus habilidades técnicas en el sector masculino.',
+    level: 'Intermedio',
+    price: 19.99,
     hotmartLinks: {
-      standard: 'https://hotmart.com/product/link-estandar-6',
-      promo: 'https://hotmart.com/product/link-promo-6'
+      standard: 'https://go.hotmart.com/057813170D?dp=1',
     },
-    badges: { isPromo: true, hasFreeClass: false, isFeatured: true },
+    badges: { isPromo: false, hasFreeClass: false, isFeatured: true },
+    category: 'especialidades',
+    quizTags: {
+      experience: ['intermedio', 'avanzado'],
+      learnType: ['patronaje', 'alta-costura'],
+      garmentType: ['sastreria', 'casual'],
+      machine: ['si'],
+      purpose: ['hobby', 'negocio'],
+      challenge: ['patrones', 'acabados'],
+      goal: ['ropa-propia', 'vender-medida']
+    },
+    benefits: ['Técnicas de sastrería', 'Confección masculina', 'Acabados de alta calidad'],
+    faqs: [
+      { question: '¿Es apto para principiantes?', answer: 'Este curso está enfocado en técnicas de sastrería, por lo que se recomienda tener conocimientos básicos de costura previa.' }
+    ]
+  },
+  {
+    id: '7',
+    slug: 'costura-premium-gold',
+    title: 'Costura Premium Gold',
+    shortDescription: 'Domina la alta costura con técnicas avanzadas de confección profesional y acabados de lujo.',
+    longDescription: 'El nivel superior de nuestra academia. En Costura Premium Gold aprenderás los secretos de los acabados de alta gama, manipulación de telas complejas y las técnicas avanzadas que distinguen a una modista profesional. Ideal para quienes buscan elevar la calidad de sus creaciones al máximo nivel.',
+    level: 'Avanzado',
+    price: 75.00,
+    hotmartLinks: {
+      standard: 'https://go.hotmart.com/E106051689D?ap=8fe0',
+      freeClass: 'https://go.hotmart.com/E106051689D?ap=7b7b'
+    },
+    badges: { isPromo: false, hasFreeClass: true, isFeatured: true },
     category: 'alta-costura',
     quizTags: {
-      experience: ['avanzado'],
+      experience: ['intermedio', 'avanzado'],
       learnType: ['alta-costura'],
-      garmentType: ['vestidos'],
+      garmentType: ['vestidos', 'sastreria'],
       machine: ['si'],
       purpose: ['negocio'],
       challenge: ['acabados'],
       goal: ['vender-medida', 'crear-marca']
     },
-    benefits: ['Confección paso a paso de 3 vestidos reales', 'Estructuras de soporte interno invisibles', 'Soporte prioritario'],
+    benefits: ['Acabados de lujo', 'Manipulación de telas avanzadas', 'Técnicas de alta costura'],
     faqs: [
-      { question: '¿Este curso incluye videos paso a paso?', answer: 'Sí, videos HD súper detallados grabados de cerca.' }
-    ]
-  },
-  {
-    id: '7',
-    slug: 'costura-infantil-bebes',
-    title: 'Costura Infantil: Ropa de Bebé y Niños',
-    shortDescription: 'Crea vestidos de niña, enteritos de bebé y conjuntos cómodos con telas naturales y seguras.',
-    longDescription: 'Aprende las medidas especiales para niños, acabados suaves para pieles sensibles y patrones adaptados para el crecimiento rápido de los más pequeños de la casa.',
-    level: 'Principiante',
-    price: 45.00,
-    hotmartLinks: {
-      standard: 'https://hotmart.com/product/link-estandar-7',
-      freeClass: 'https://hotmart.com/product/clase-gratis-7'
-    },
-    badges: { isPromo: false, hasFreeClass: true, isFeatured: false },
-    category: 'especialidades',
-    quizTags: {
-      experience: ['principiante', 'intermedio'],
-      learnType: ['costura-basica'],
-      garmentType: ['casual'],
-      machine: ['si', 'no'],
-      purpose: ['hobby', 'negocio'],
-      challenge: ['maquina'],
-      goal: ['ropa-propia', 'crear-marca']
-    },
-    benefits: ['Plantillas de medidas infantiles por edad', 'Trucos de terminaciones que no raspan', 'Telas recomendadas'],
-    faqs: [
-      { question: '¿Sirve para regalar o vender?', answer: 'Totalmente, la ropa de bebé es uno de los rubros mejor pagados.' }
+      { question: '¿Es apto para principiantes?', answer: 'Este es un curso avanzado. Se recomienda tener experiencia previa en confección para aprovechar al máximo las técnicas enseñadas.' }
     ]
   },
   {
     id: '8',
-    slug: 'patronaje-digital-moldes',
-    title: 'Patronaje Digital: Domina el Software',
-    shortDescription: 'Aprende a diseñar, digitalizar e imprimir tus propios patrones de ropa usando la computadora.',
-    longDescription: 'Olvídate de los pliegos enormes de papel y lápiz. Aprende a vectorizar y diseñar tus patrones digitalmente para modificarlos en segundos e imprimirlos en cualquier impresora familiar.',
+    slug: 'lenceria-intima-premium',
+    title: 'Lencería Íntima Premium',
+    shortDescription: 'Domina el arte de la confección de lencería fina con técnicas profesionales y acabados de alta calidad.',
+    longDescription: 'Curso integral de lencería íntima donde aprenderás desde el reconocimiento de materiales hasta la confección avanzada de brasieres y panties. Domina la toma de medidas exacta, el uso de máquinas familiares e industriales y la transformación de patrones para crear diseños únicos (cacheteros, tangas, brasieres estructurados) con acabados impecables.',
     level: 'Intermedio',
-    price: 69.99,
-    hotmartLinks: {
-      standard: 'https://hotmart.com/product/link-estandar-8'
-    },
-    badges: { isPromo: false, hasFreeClass: false, isFeatured: false },
-    category: 'patronaje',
-    quizTags: {
-      experience: ['intermedio', 'avanzado'],
-      learnType: ['patronaje'],
-      garmentType: ['casual', 'vestidos'],
-      machine: ['si'],
-      purpose: ['negocio'],
-      challenge: ['patrones'],
-      goal: ['crear-marca']
-    },
-    benefits: ['Licencia de software de práctica incluida', 'Exportación de moldes en PDF tamaño carta/A4', 'Clases de escalado automatizado'],
-    faqs: [
-      { question: '¿Necesito una computadora muy avanzada?', answer: 'No, cualquier computadora básica de oficina o laptop funciona.' }
-    ]
-  },
-  {
-    id: '9',
-    slug: 'upcycling-transformacion-ropa',
-    title: 'Upcycling: Transforma y Arregla tu Ropa',
-    shortDescription: 'Aprende a cambiar cierres, entallar pantalones y darle una segunda vida de diseño a tus prendas viejas.',
-    longDescription: 'Ahorra dinero y cuida el planeta. Te enseñamos a realizar bastas perfectas, entallar blusas a tu silueta y recrear prendas pasadas de moda con técnicas modernas de sastrería rápida.',
-    level: 'Principiante',
-    price: 34.99,
-    hotmartLinks: {
-      standard: 'https://hotmart.com/product/link-estandar-9'
-    },
-    badges: { isPromo: false, hasFreeClass: false, isFeatured: false },
-    category: 'costura-basica',
-    quizTags: {
-      experience: ['principiante'],
-      learnType: ['costura-basica'],
-      garmentType: ['casual'],
-      machine: ['si', 'no'],
-      purpose: ['hobby'],
-      challenge: ['maquina'],
-      goal: ['ropa-propia']
-    },
-    benefits: ['Guía visual de compostura de cierres rotos', 'Cómo arreglar pantalones jeans', 'Ideas creativas de diseño sostenible'],
-    faqs: [
-      { question: '¿Aprenderé a entallar sacos?', answer: 'Sí, hay módulos específicos para entallado de prendas superiores.' }
-    ]
-  },
-  {
-    id: '10',
-    slug: 'confeccion-chaquetas-abrigos',
-    title: 'Confección Profesional de Chaquetas y Abrigos',
-    shortDescription: 'Crea abrigos elegantes de lana, chaquetas forradas y prendas de invierno duraderas.',
-    longDescription: 'Domina el manejo de telas pesadas y estructuradas. Aprenderás cuellos solapa impecables, técnicas de acolchado, cierres de abrigo reforzados y puños con acabados profesionales.',
-    level: 'Avanzado',
     price: 79.99,
+    promoPrice: 39.99,
     hotmartLinks: {
-      standard: 'https://hotmart.com/product/link-estandar-10'
-    },
-    badges: { isPromo: false, hasFreeClass: false, isFeatured: false },
-    category: 'especialidades',
-    quizTags: {
-      experience: ['avanzado'],
-      learnType: ['alta-costura', 'patronaje'],
-      garmentType: ['sastreria'],
-      machine: ['si'],
-      purpose: ['negocio', 'hobby'],
-      challenge: ['acabados'],
-      goal: ['vender-medida', 'ropa-propia']
-    },
-    benefits: ['Acabados térmicos interiores para invierno', 'Corte seguro de telas gruesas', 'Acceso al foro de dudas'],
-    faqs: [
-      { question: '¿Sirve para chaquetas de cuero?', answer: 'Se enseñan las bases para telas gruesas, incluyendo consejos de eco-cuero.' }
-    ]
-  },
-  {
-    id: '11',
-    slug: 'emprendimiento-marca-costura',
-    title: 'Costura para Emprendedoras: Crea tu Marca',
-    shortDescription: 'Aprende a calcular costos, fotografiar tus prendas y vender colecciones de ropa por redes sociales.',
-    longDescription: 'El curso de negocios definitivo para costureras. No basta con saber coser; te enseñamos a monetizar tu talento, calcular precios exactos para tener ganancias altas y crear empaques irresistibles.',
-    level: 'Todos los niveles',
-    price: 49.99,
-    promoPrice: 24.99,
-    hotmartLinks: {
-      standard: 'https://hotmart.com/product/link-estandar-11',
-      promo: 'https://hotmart.com/product/link-promo-11'
+      standard: 'https://go.hotmart.com/P75653648Y?ap=1788',
+      promo: 'https://go.hotmart.com/P75653648Y?ap=5f2c',
     },
     badges: { isPromo: true, hasFreeClass: false, isFeatured: true },
     category: 'especialidades',
     quizTags: {
-      experience: ['principiante', 'intermedio', 'avanzado'],
-      learnType: ['costura-basica', 'alta-costura', 'patronaje'],
-      garmentType: ['casual', 'vestidos', 'sastreria', 'lenceria'],
-      machine: ['si', 'no'],
-      purpose: ['negocio'],
-      challenge: ['patrones', 'maquina', 'acabados'],
-      goal: ['crear-marca', 'vender-medida']
-    },
-    benefits: ['Plantilla automatizada de cálculo de precios', 'Guía de fotografía con celular en casa', 'Estrategia de ventas digitales'],
-    faqs: [
-      { question: '¿Necesito saber coser mucho para tomarlo?', answer: 'No, este curso se enfoca puramente en la parte comercial y ventas.' }
-    ]
-  },
-  {
-    id: '12',
-    slug: 'bordado-pedreria-alta-costura',
-    title: 'Bordado en Pedrería y Detalles de Gala',
-    shortDescription: 'Aplica mostacillas, canutillos, lentejuelas y pedrería fina sobre vestidos de alta noche.',
-    longDescription: 'Eleva el valor de tus prendas multiplicando su precio en el mercado. Aprende a transferir diseños, tensar bastidores de alta costura y fijar cada joya para que no se caiga ni dañe la tela.',
-    level: 'Intermedio',
-    price: 55.00,
-    hotmartLinks: {
-      standard: 'https://hotmart.com/product/link-estandar-12'
-    },
-    badges: { isPromo: false, hasFreeClass: false, isFeatured: false },
-    category: 'alta-costura',
-    quizTags: {
-      experience: ['principiante', 'intermedio'],
-      learnType: ['alta-costura'],
-      garmentType: ['vestidos'],
-      machine: ['si', 'no'],
-      purpose: ['hobby', 'negocio'],
-      challenge: ['acabados'],
-      goal: ['vender-medida']
-    },
-    benefits: ['Patrones de bordado descargables listos para trazar', 'Uso correcto del gancho de Luneville', 'Cómo calcular el valor de tus horas de bordado'],
-    faqs: [
-      { question: '¿Requiere máquina de coser?', answer: 'No, esta es una técnica de trabajo artesanal 100% manual.' }
-    ]
-  },
-  {
-    id: '13',
-    slug: 'costura-ropa-deportiva',
-    title: 'Confección Profesional de Ropa Deportiva',
-    shortDescription: 'Aprende a confeccionar calzas, tops deportivos y shorts elásticos resistentes de alta calidad.',
-    longDescription: 'Confecciona ropa deportiva de alto rendimiento. Domina las puntadas elásticas de tensión, costuras reforzadas para actividad física y el correcto estiramiento de las lycras técnicas.',
-    level: 'Intermedio',
-    price: 49.99,
-    hotmartLinks: {
-      standard: 'https://hotmart.com/product/link-estandar-13'
-    },
-    badges: { isPromo: false, hasFreeClass: false, isFeatured: false },
-    category: 'especialidades',
-    quizTags: {
       experience: ['intermedio'],
-      learnType: ['patronaje', 'costura-basica'],
+      learnType: ['alta-costura'],
       garmentType: ['lenceria'],
       machine: ['si'],
-      purpose: ['negocio', 'hobby'],
-      challenge: ['acabados'],
-      goal: ['crear-marca', 'ropa-propia']
+      purpose: ['hobby', 'negocio'],
+      challenge: ['acabados', 'patrones'],
+      goal: ['ropa-propia', 'vender-medida']
     },
-    benefits: ['Patrones listos en PDF multitalle', 'Manejo de elásticos embutidos de cintura', 'Guía de telas que respiran de calidad industrial'],
+    benefits: ['Toma de medidas profesional', 'Confección de brasieres y panties', 'Técnicas de costura industrial', 'Transformación de patrones'],
     faqs: [
-      { question: '¿Las costuras resisten el estiramiento?', answer: 'Sí, te enseñamos a hacer la costura de seguridad elástica con aguja doble.' }
+      { question: '¿Necesito máquina industrial?', answer: 'Puedes comenzar con una máquina familiar que tenga puntada zigzag, el curso te enseña a adaptar las técnicas a tus herramientas.' }
     ]
   },
-  {
-    id: '14',
-    slug: 'costura-mascotas-accesorios',
-    title: 'Moda Canina y Accesorios para Mascotas',
-    shortDescription: 'Confecciona abrigos, capas de lluvia, collares y ropa temática para perros de todos los tamaños.',
-    longDescription: 'El mercado de mascotas está en su momento de mayor auge. Aprende las tablas de medidas caninas por razas, cómo diseñar para su comodidad anatómica y confecciona prendas rápidas y altamente lucrativas.',
-    level: 'Principiante',
-    price: 39.99,
-    hotmartLinks: {
-      standard: 'https://hotmart.com/product/link-estandar-14'
+{
+  id: '11',
+  slug: 'moda-materna',
+  title: 'Moda Materna',
+  shortDescription: 'Aprende a crear tus propias prendas clásicas para la gestación, con patrones personalizados.',
+  longDescription: 'Domina la creación de moda materna con patrones que se adaptan al crecimiento del vientre. Aprenderás a confeccionar ropa cómoda, con estilo y funcional para tallas grandes y etapas de gestación, asegurando un ajuste perfecto y acabados de alta calidad.',
+  level: 'Principiante',
+  price: 14.99,
+  hotmartLinks: {
+    standard: 'https://go.hotmart.com/V106588330E?dp=1',
+    promo: 'https://go.hotmart.com/V106588330E?ap=b3cc'
+  },
+  badges: { isPromo: true, hasFreeClass: false, isFeatured: false },
+  category: 'especialidades',
+  quizTags: {
+    experience: ['principiante', 'intermedio'],
+    learnType: ['costura-basica', 'patronaje'],
+    garmentType: ['casual'],
+    machine: ['si'],
+    purpose: ['hobby', 'negocio'],
+    challenge: ['patrones', 'acabados'],
+    goal: ['vender-medida', 'ropa-propia']
+  },
+  benefits: ['Patrones adaptables', 'Confección para tallas grandes', 'Comodidad y estilo materno', 'Técnicas de costura básica'],
+  faqs: [
+    { question: '¿Incluye patrones?', answer: 'Sí, aprenderás a crear tus propios patrones adaptables al crecimiento del vientre.' }
+  ]
+},
+{
+  id: '12',
+  slug: 'mantenimiento-maquinas',
+  title: 'Mantenimiento de Máquinas de Confección',
+  shortDescription: 'Aprende a realizar el mantenimiento preventivo y correctivo de tu máquina de coser para alargar su vida útil.',
+  longDescription: 'Domina los secretos técnicos para mantener tu máquina de coser en perfecto estado. En este curso aprenderás desde la limpieza profunda y lubricación, hasta la sincronización de tiempos, ajuste de tensión, y cómo solucionar problemas comunes sin necesidad de un técnico. Ideal para máquinas rectas e industriales.',
+  level: 'Intermedio',
+  price: 39.99,
+  hotmartLinks: {
+    standard: 'https://go.hotmart.com/N55733229G?dp=1',
+    promo: 'https://go.hotmart.com/N55733229G?ap=c27d'
+  },
+  badges: { isPromo: true, hasFreeClass: false, isFeatured: true },
+  category: 'especialidades',
+  quizTags: {
+    experience: ['principiante', 'intermedio'],
+    learnType: ['costura-basica'],
+    garmentType: ['casual'],
+    machine: ['si'],
+    purpose: ['hobby', 'negocio'],
+    challenge: ['maquina'],
+    goal: ['ropa-propia', 'vender-medida']
+  },
+  benefits: ['Ahorro en servicios técnicos', 'Mayor vida útil de tu máquina', 'Solución de problemas comunes', 'Sincronización profesional'],
+  faqs: [
+    { question: '¿Aplica para mi máquina?', answer: 'Sí, el curso cubre los principios universales de las máquinas de confección, tanto familiares como industriales.' },
+    { question: '¿Necesito ser experta?', answer: 'No, te llevamos paso a paso con videos en alta definición para que cualquiera pueda realizar los ajustes.' }
+  ]
+},
+{
+      id: '13',
+      slug: 'pijamas-premium',
+      title: 'Pijamas Premium',
+      shortDescription: 'Domina la confección de pijamas cómodas y con estilo, desde el patronaje hasta los acabados finales.',
+      longDescription: 'Este curso integral te enseña a crear tu propia línea de ropa de descanso. Aprenderás toma de medidas, patronaje básico, y técnicas específicas de confección para cuellos smoking, pijamas con tela y acabados de nivel profesional. Ideal tanto para uso personal como para emprender.',
+      level: 'Principiante',
+      price: 29.99,
+      promoPrice: 59.99,
+      hotmartLinks: {
+        standard: 'https://go.hotmart.com/G59372086C?ap=953a',
+        promo: 'https://go.hotmart.com/G59372086C?ap=1c94'
+      },
+      badges: { isPromo: true, hasFreeClass: false, isFeatured: true },
+      category: 'especialidades',
+      quizTags: {
+        experience: ['principiante', 'intermedio'],
+        learnType: ['costura-basica', 'patronaje'],
+        garmentType: ['casual', 'lenceria'],
+        machine: ['si'],
+        purpose: ['hobby', 'negocio'],
+        challenge: ['acabados', 'patrones'],
+        goal: ['ropa-propia', 'vender-medida']
+      },
+      benefits: ['Patronaje de pijamas', 'Confección de cuello smoking', 'Acabados profesionales', 'Emprendimiento de ropa de descanso'],
+      faqs: [
+        { question: '¿Incluye patronaje?', answer: 'Sí, el curso cubre el proceso completo desde la toma de medidas y trazado de patrones hasta la confección.' }
+      ]
     },
-    badges: { isPromo: false, hasFreeClass: false, isFeatured: false },
-    category: 'especialidades',
-    quizTags: {
-      experience: ['principiante'],
-      learnType: ['costura-basica'],
-      garmentType: ['casual'],
-      machine: ['si', 'no'],
-      purpose: ['negocio', 'hobby'],
-      challenge: ['maquina'],
-      goal: ['crear-marca', 'vender-medida']
-    },
-    benefits: ['Guías de medidas por razas desde chihuahua a golden retriever', 'Proyectos muy rentables utilizando sobrantes de tela', 'Certificación Hotmart'],
-    faqs: [
-      { question: '¿Es fácil vender este tipo de prendas?', answer: 'Sí, es uno de los nichos con compras más impulsivas y mejores márgenes.' }
-    ]
-  }
+{
+  id: '14',
+  slug: 'trajes-de-bano-premium',
+  title: 'Trajes de Baño Premium',
+  shortDescription: 'Domina la confección de trajes de baño profesionales, desde el forrado hasta los acabados elásticos perfectos.',
+  longDescription: 'Curso avanzado enfocado en la creación de trajes de baño de alta calidad. Aprenderás a trabajar con telas elásticas, aplicar técnicas de forrado profesional, colocar elásticos, tirantes y realizar acabados impecables en bikinis, enteros y tankinis. Ideal para quienes buscan un producto de venta con alta demanda.',
+  level: 'Intermedio',
+  price: 69.99,
+  hotmartLinks: {
+    standard: 'https://go.hotmart.com/D50567569B?dp=1',
+    promo: 'https://go.hotmart.com/D50567569B?ap=aab2'
+  },
+  badges: { isPromo: true, hasFreeClass: false, isFeatured: true },
+  category: 'especialidades',
+  quizTags: {
+    experience: ['intermedio', 'avanzado'],
+    learnType: ['alta-costura'],
+    garmentType: ['lenceria'],
+    machine: ['si'],
+    purpose: ['hobby', 'negocio'],
+    challenge: ['acabados', 'maquina'],
+    goal: ['vender-medida', 'crear-marca']
+  },
+  benefits: ['Técnicas de forrado profesional', 'Confección de piezas elásticas', 'Acabados resistentes al agua', 'Emprendimiento de trajes de baño'],
+  faqs: [
+    { question: '¿Qué tipo de máquina necesito?', answer: 'Se recomienda una máquina que realice puntada zigzag o una máquina recubridora para acabados profesionales en telas elásticas.' }
+  ]
+  },
+
+
+
 ];
