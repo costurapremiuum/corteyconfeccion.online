@@ -400,4 +400,32 @@ export const courses: Course[] = [
         { question: '¿Incluye moldes?', answer: 'Sí, el curso te enseña a manejar los moldes necesarios para la producción de camisetas.' }
       ]
     }
+    {
+  id: '11',
+  slug: 'moda-materna',
+  title: 'Moda Materna',
+  shortDescription: 'Aprende a crear tus propias prendas clásicas para la gestación, con patrones personalizados.',
+  longDescription: 'Domina la creación de moda materna con patrones que se adaptan al crecimiento del vientre. Aprenderás a confeccionar ropa cómoda, con estilo y funcional para tallas grandes y etapas de gestación, asegurando un ajuste perfecto y acabados de alta calidad.',
+  level: 'Principiante',
+  price: 14.99,
+  hotmartLinks: {
+    standard: 'https://go.hotmart.com/V106588330E?dp=1',
+    promo: 'https://go.hotmart.com/V106588330E?ap=b3cc'
+  },
+  badges: { isPromo: true, hasFreeClass: false, isFeatured: false },
+  category: 'especialidades',
+  quizTags: {
+    experience: ['principiante', 'intermedio'],
+    learnType: ['costura-basica', 'patronaje'],
+    garmentType: ['casual'],
+    machine: ['si'],
+    purpose: ['hobby', 'negocio'],
+    challenge: ['patrones', 'acabados'],
+    goal: ['vender-medida', 'ropa-propia']
+  },
+  benefits: ['Patrones adaptables', 'Confección para tallas grandes', 'Comodidad y estilo materno', 'Técnicas de costura básica'],
+  faqs: [
+    { question: '¿Incluye patrones?', answer: 'Sí, aprenderás a crear tus propios patrones adaptables al crecimiento del vientre.' }
+  ]
+},
   ];
