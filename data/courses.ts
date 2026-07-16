@@ -399,7 +399,7 @@ export const courses: Course[] = [
       faqs: [
         { question: '¿Incluye moldes?', answer: 'Sí, el curso te enseña a manejar los moldes necesarios para la producción de camisetas.' }
       ]
-    }
+    },
     {
   id: '11',
   slug: 'moda-materna',
