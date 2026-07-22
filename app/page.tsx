@@ -97,21 +97,62 @@ export default function App() {
   const [page, setPage] = useState('home');
 
   return (
-    <div className="min-h-screen bg-[#FFFFFF] text-[#222222] font-sans">
+    <div className="min-h-screen bg-[#F8F5EF] text-[#222222] font-sans">
       <Header setPage={setPage} />
 
-      <main className="container mx-auto px-6 py-12">
+      <main className="mx-auto max-w-7xl px-6 py-8 md:px-8 md:py-12 lg:px-10">
         {page === 'home' && (
           <>
-            <section className="text-center py-20">
-              <h1 className="text-5xl md:text-6xl font-serif font-bold mb-6">Aprende a coser <span className="italic text-[#E07A5F]">como profesional</span></h1>
-              <p className="text-lg opacity-70 max-w-lg mx-auto mb-10">Cursos online guiados para crear prendas únicas desde tu casa.</p>
-              <div className="flex gap-4 justify-center">
-                <button onClick={() => setPage('cursos')} className="bg-[#E07A5F] text-white px-8 py-4 rounded-full font-bold">Ver cursos</button>
+            <section className="relative overflow-hidden rounded-[32px] border border-[#E8E0D0] bg-[#F8F5EF] px-8 py-12 shadow-[0_24px_80px_rgba(34,34,34,0.06)] md:px-12 lg:px-16 lg:py-16">
+              <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,_rgba(212,175,55,0.16),_transparent_38%)]" />
+              <div className="relative grid items-center gap-10 lg:grid-cols-[1.05fr_0.95fr]">
+                <div className="max-w-2xl">
+                  <span className="inline-flex items-center rounded-full border border-[#D4AF37]/40 bg-white/80 px-4 py-2 text-[11px] font-semibold uppercase tracking-[0.3em] text-[#D4AF37]">
+                    Academia Costura Premium
+                  </span>
+                  <h1 className="mt-6 text-4xl font-serif font-semibold leading-[0.95] text-[#222222] sm:text-5xl lg:text-6xl">
+                    Tu academia online de <span className="text-[#D4AF37]">corte y confección</span>
+                  </h1>
+                  <p className="mt-6 max-w-xl text-lg leading-8 text-[#6B7280]">
+                    Aprende desde cero hasta nivel profesional y crea prendas que amarás con una ruta guiada, clases premium y acceso ilimitado.
+                  </p>
+
+                  <div className="mt-8 flex flex-col gap-4 sm:flex-row">
+                    <a
+                      href="#academia"
+                      className="inline-flex items-center justify-center rounded-full bg-[#222222] px-8 py-4 text-sm font-semibold uppercase tracking-[0.2em] text-white transition duration-200 hover:-translate-y-0.5 hover:bg-[#111111]"
+                    >
+                      ÚNETE A LA ACADEMIA
+                    </a>
+                  </div>
+
+                  <div className="mt-10 grid gap-4 sm:grid-cols-3">
+                    {[
+                      { value: '14 cursos', label: 'incluidos' },
+                      { value: '+1,100 clases', label: 'de contenido' },
+                      { value: 'Acceso ilimitado', label: 'a tu ritmo' }
+                    ].map((item) => (
+                      <div key={item.value} className="rounded-2xl border border-[#E8E0D0] bg-white/70 px-4 py-4 backdrop-blur">
+                        <p className="text-lg font-semibold text-[#222222]">{item.value}</p>
+                        <p className="mt-1 text-sm text-[#6B7280]">{item.label}</p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+
+                <div className="relative">
+                  <div className="overflow-hidden rounded-[28px] border border-[#E8E0D0] bg-[#FFFDF8] p-3 shadow-[0_20px_50px_rgba(34,34,34,0.08)]">
+                    <img
+                      src="/hero-sewing.svg"
+                      alt="Espacio premium de costura"
+                      className="h-full w-full rounded-[20px] object-cover"
+                    />
+                  </div>
+                </div>
               </div>
             </section>
-            
-            <section className="max-w-xl mx-auto my-20">
+
+            <section className="mx-auto my-16 max-w-3xl">
               <QuizWizard />
             </section>
           </>
