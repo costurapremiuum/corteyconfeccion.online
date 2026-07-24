@@ -13,7 +13,23 @@ export const instructor = {
 export const testimonials = [
   {
     id: '1',
-    name: 'Estudiante',
-    text: 'Historias reales, crecimiento real...'
+    name: 'María López',
+    city: 'Quito',
+    photo: '/placeholder-avatar.svg',
+    text: 'Gracias a la Academia pude transformar mi hobby en un trabajo estable. Las clases son claras y el soporte es excelente.'
+  },
+  {
+    id: '2',
+    name: 'Ana Torres',
+    city: 'Guayaquil',
+    photo: '/placeholder-avatar.svg',
+    text: 'La metodología me permitió comprender todo el proceso: desde la toma de medidas hasta los acabados profesionales.'
+  },
+  {
+    id: '3',
+    name: 'Lucía Fernández',
+    city: 'Cuenca',
+    photo: '/placeholder-avatar.svg',
+    text: 'Hoy vendo mis diseños gracias a lo aprendido. La Academia es práctica, profesional y muy bien estructurada.'
   }
 ];

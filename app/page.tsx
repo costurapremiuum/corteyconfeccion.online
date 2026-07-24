@@ -10,6 +10,10 @@ import {
 import { courses } from '../data/courses';
 import QuizWizard from '../components/QuizWizard';
 import SubscriptionSection from '../components/SubscriptionSection';
+import MethodologySection from '../components/MethodologySection';
+import SpecialtiesSection from '../components/SpecialtiesSection';
+import TestimonialSection from '../components/TestimonialSection';
+import FAQSection from '../components/FAQSection';
 
 type Page = 'home' | 'cursos';
 
@@ -83,18 +87,7 @@ export default function App() {
                     </a>
                   </div>
 
-                  <div className="mt-10 grid gap-4 sm:grid-cols-3">
-                    {[
-                      { value: '14 cursos', label: 'incluidos' },
-                      { value: '+1,100 clases', label: 'de contenido' },
-                      { value: 'Acceso ilimitado', label: 'a tu ritmo' }
-                    ].map((item) => (
-                      <div key={item.value} className="rounded-2xl border border-[#E8E0D0] bg-white/70 px-4 py-4 backdrop-blur">
-                        <p className="text-lg font-semibold text-[#222222]">{item.value}</p>
-                        <p className="mt-1 text-sm text-[#6B7280]">{item.label}</p>
-                      </div>
-                    ))}
-                  </div>
+                  {/* stats removed from hero - moved to a separate band below */}
                 </div>
 
                 <div className="relative">
@@ -109,11 +102,41 @@ export default function App() {
               </div>
             </section>
 
-            <section className="mx-auto my-16 max-w-3xl">
+            {/* Stats band */}
+            <section className="mx-auto my-12 max-w-5xl">
+              <div className="rounded-3xl border border-[#E8E0D0] bg-white p-6 shadow-sm">
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-center">
+                  <div>
+                    <p className="text-lg font-semibold text-[#222222]">14 cursos</p>
+                    <p className="mt-1 text-sm text-[#6B7280]">incluidos</p>
+                  </div>
+                  <div>
+                    <p className="text-lg font-semibold text-[#222222]">+1,100 clases</p>
+                    <p className="mt-1 text-sm text-[#6B7280]">de contenido</p>
+                  </div>
+                  <div>
+                    <p className="text-lg font-semibold text-[#222222]">Acceso ilimitado</p>
+                    <p className="mt-1 text-sm text-[#6B7280]">a tu ritmo</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <MethodologySection />
+
+            <SpecialtiesSection />
+
+            <section className="mx-auto my-12 max-w-3xl">
               <QuizWizard />
             </section>
 
-            <SubscriptionSection />
+            <section id="academia" className="my-12">
+              <SubscriptionSection />
+            </section>
+
+            <TestimonialSection />
+
+            <FAQSection />
           </>
         )}
 
@@ -140,4 +163,4 @@ export default function App() {
       </footer>
     </div>
   );
-}
+}     

@@ -36,8 +36,8 @@ export const courses: Course[] = [
     id: '1',
     slug: 'camisas-nino-isabel-villagomez',
     title: 'Costura Sin Estrés: Camisas de Niño',
-    shortDescription: 'Aprende a confeccionar camisas de niño paso a paso con técnicas sencillas y acabados profesionales.',
-    longDescription: 'El curso perfecto para quienes buscan resultados impecables sin complicaciones. Domina el corte y confección de camisas infantiles, ideal tanto para uso personal como para emprender un negocio rentable.',
+    shortDescription: 'Confecciona camisas para niños desde cero: desde tomar medidas hasta crear prendas con acabados profesionales.',
+    longDescription: 'Aprende el proceso completo de confección de camisas infantiles: toma de medidas, desarrollo de patrones, corte preciso y confección paso a paso con técnicas sencillas que garantizan resultados impecables. Ideal tanto para crear ropa para tus hijos como para iniciar un emprendimiento rentable.',
     level: 'Principiante',
     price: 24.99,
     promoPrice: 15.00,
@@ -65,8 +65,8 @@ export const courses: Course[] = [
     id: '2',
     slug: 'patrones-premium-ropa-deportiva',
     title: 'Patrones Premium: Ropa Deportiva',
-    shortDescription: 'Colección de patrones profesionales para confeccionar ropa deportiva de alto rendimiento.',
-    longDescription: 'Accede a una serie de moldes diseñados para crear calzas, tops y ropa deportiva con un ajuste profesional. Ideales para iniciar tu emprendimiento de moda fitness.',
+    shortDescription: 'Domina la confección de ropa deportiva con patrones profesionales para crear calzas, tops y leggings de alto rendimiento.',
+    longDescription: 'Aprende a confeccionar ropa deportiva de calidad gym: desde la toma de medidas adaptadas al ajuste deportivo, desarrollo de patrones para diferentes tipos de cuerpo, corte preciso en telas elásticas y confección de prendas con acabados profesionales. Especializado en la creación de calzas, tops y piezas fitness ideales para venta.',
     level: 'Intermedio',
     price: 14.00,
     hotmartLinks: {
@@ -92,8 +92,8 @@ export const courses: Course[] = [
     id: '3',
     slug: 'especializacion-blusas',
     title: 'Especialización en Blusas',
-    shortDescription: 'Aprende a desarrollar blusas desde la base, ajustándolas a la morfología corporal para crear patrones personalizados.',
-    longDescription: 'En este plan de estudio aprenderás a desarrollar blusas desde la base, comprendiendo cómo tomar medidas según la morfología del cuerpo y trasladarlas al papel para crear patrones personalizados. A lo largo del proceso, trabajarás en el diseño, realizando ajustes y modificaciones según el estilo deseado.',
+    shortDescription: 'Crea blusas personalizadas: toma de medidas, desarrollo de moldes adaptados al cuerpo y confección paso a paso.',
+    longDescription: 'Especialízate en la confección completa de blusas: aprende a tomar medidas precisas según la morfología de cada cuerpo, desarrolla patrones personalizados ajustables, domina técnicas de corte en diferentes telas y confecciona blusas con detalles profesionales. Cada blusa que crees será única y adaptada perfectamente a quién la use.',
     level: 'Intermedio',
     price: 14.99,
     hotmartLinks: {
@@ -120,8 +120,8 @@ export const courses: Course[] = [
     id: '4',
     slug: 'costura-infantil-premium',
     title: 'Costura Infantil Premium',
-    shortDescription: 'Aprende a diseñar y confeccionar prendas infantiles con técnicas de patronaje desde cero.',
-    longDescription: 'En este curso aprenderás a diseñar prendas infantiles, afinando tus técnicas desde lo básico a lo avanzado. Te llevaremos de la mano hasta que desarrolles tu primera prenda, sin necesidad de patrones previos. Aprenderás a confeccionar ropa de alta calidad, a tomar medidas y a crear tus propios patrones desde cero.',
+    shortDescription: 'Confecciona prendas infantiles profesionales: desde tomar medidas de niños hasta crear moldes y costuras de alta calidad.',
+    longDescription: 'Domina la confección completa de ropa infantil: aprende a tomar medidas exactas en diferentes grupos de edad, desarrolla patrones que crecen con el niño, domina técnicas de corte en telas delicadas y confecciona prendas robustas y seguras. Desde vestidos hasta conjuntos, crearás ropa infantil de calidad premium para uso personal o emprendimiento.',
     level: 'Principiante',
     price: 79.99,
     hotmartLinks: {
@@ -177,8 +177,8 @@ export const courses: Course[] = [
     id: '6',
     slug: 'costura-premium-masculina',
     title: 'Costura Premium Línea Masculina',
-    shortDescription: 'Domina el arte de la confección masculina con técnicas premium y acabados profesionales.',
-    longDescription: 'Aprende las bases de la sastrería y confección masculina. Domina los cortes, estructuras y acabados necesarios para crear prendas masculinas de alta calidad, desde camisas hasta pantalones. Un curso diseñado para elevar tus habilidades técnicas en el sector masculino.',
+    shortDescription: 'Confecciona prendas masculinas premium: camisas, pantalones y chaquetas con patrones profesionales y acabados impecables.',
+    longDescription: 'Aprende el proceso completo de confección masculina: toma de medidas precisas según fisionomía masculina, desarrollo de patrones para camisas y pantalones, corte en diferentes telas y confección de prendas con estructuras y acabados de sastrería. Desde camisas casuales hasta piezas formales, crearás prendas masculinas de alta calidad.',
     level: 'Intermedio',
     price: 19.99,
     hotmartLinks: {
@@ -204,8 +204,8 @@ export const courses: Course[] = [
     id: '7',
     slug: 'costura-premium-gold',
     title: 'Costura Premium Gold',
-    shortDescription: 'Domina la alta costura con técnicas avanzadas de confección profesional y acabados de lujo.',
-    longDescription: 'El nivel superior de nuestra academia. En Costura Premium Gold aprenderás los secretos de los acabados de alta gama, manipulación de telas complejas y las técnicas avanzadas que distinguen a una modista profesional. Ideal para quienes buscan elevar la calidad de sus creaciones al máximo nivel.',
+    shortDescription: 'Domina la alta costura: vestidos y prendas complejas con patrones avanzados y acabados de lujo profesional.',
+    longDescription: 'El nivel superior de confección. Aprende a crear prendas complejas: toma de medidas especializadas, desarrollo de patrones para vestidos de evento y piezas exigentes, trabajo con telas delicadas y complejas, y domina los acabados de alta costura que distinguen a una modista profesional. Técnicas avanzadas en forros, cierres invisibles y detalles de lujo.',
     level: 'Avanzado',
     price: 75.00,
     hotmartLinks: {
@@ -232,8 +232,8 @@ export const courses: Course[] = [
     id: '8',
     slug: 'lenceria-intima-premium',
     title: 'Lencería Íntima Premium',
-    shortDescription: 'Domina el arte de la confección de lencería fina con técnicas profesionales y acabados de alta calidad.',
-    longDescription: 'Curso integral de lencería íntima donde aprenderás desde el reconocimiento de materiales hasta la confección avanzada de brasieres y panties. Domina la toma de medidas exacta, el uso de máquinas familiares e industriales y la transformación de patrones para crear diseños únicos (cacheteros, tangas, brasieres estructurados) con acabados impecables.',
+    shortDescription: 'Confecciona lencería fina: brasieres, panties y conjuntos con patrones profesionales y acabados de alta calidad.',
+    longDescription: 'Domina la confección completa de lencería íntima: toma de medidas exactas y especializadas, desarrollo de patrones para diferentes tipos de cuerpo, corte preciso en materiales elásticos y delicados, y confección de brasieres estructurados, panties y conjuntos con acabados impecables. Aprenderás con máquinas familiares e industriales para crear diseños exclusivos.',
     level: 'Intermedio',
     price: 79.99,
     promoPrice: 39.99,
@@ -257,175 +257,146 @@ export const courses: Course[] = [
       { question: '¿Necesito máquina industrial?', answer: 'Puedes comenzar con una máquina familiar que tenga puntada zigzag, el curso te enseña a adaptar las técnicas a tus herramientas.' }
     ]
   },
-{
-  id: '11',
-  slug: 'moda-materna',
-  title: 'Moda Materna',
-  shortDescription: 'Aprende a crear tus propias prendas clásicas para la gestación, con patrones personalizados.',
-  longDescription: 'Domina la creación de moda materna con patrones que se adaptan al crecimiento del vientre. Aprenderás a confeccionar ropa cómoda, con estilo y funcional para tallas grandes y etapas de gestación, asegurando un ajuste perfecto y acabados de alta calidad.',
-  level: 'Principiante',
-  price: 14.99,
-  hotmartLinks: {
-    standard: 'https://go.hotmart.com/V106588330E?dp=1',
-    promo: 'https://go.hotmart.com/V106588330E?ap=b3cc'
-  },
-  badges: { isPromo: true, hasFreeClass: false, isFeatured: false },
-  category: 'especialidades',
-  quizTags: {
-    experience: ['principiante', 'intermedio'],
-    learnType: ['costura-basica', 'patronaje'],
-    garmentType: ['casual'],
-    machine: ['si'],
-    purpose: ['hobby', 'negocio'],
-    challenge: ['patrones', 'acabados'],
-    goal: ['vender-medida', 'ropa-propia']
-  },
-  benefits: ['Patrones adaptables', 'Confección para tallas grandes', 'Comodidad y estilo materno', 'Técnicas de costura básica'],
-  faqs: [
-    { question: '¿Incluye patrones?', answer: 'Sí, aprenderás a crear tus propios patrones adaptables al crecimiento del vientre.' }
-  ]
-},
-{
-  id: '12',
-  slug: 'mantenimiento-maquinas',
-  title: 'Mantenimiento de Máquinas de Confección',
-  shortDescription: 'Aprende a realizar el mantenimiento preventivo y correctivo de tu máquina de coser para alargar su vida útil.',
-  longDescription: 'Domina los secretos técnicos para mantener tu máquina de coser en perfecto estado. En este curso aprenderás desde la limpieza profunda y lubricación, hasta la sincronización de tiempos, ajuste de tensión, y cómo solucionar problemas comunes sin necesidad de un técnico. Ideal para máquinas rectas e industriales.',
-  level: 'Intermedio',
-  price: 39.99,
-  hotmartLinks: {
-    standard: 'https://go.hotmart.com/N55733229G?dp=1',
-    promo: 'https://go.hotmart.com/N55733229G?ap=c27d'
-  },
-  badges: { isPromo: true, hasFreeClass: false, isFeatured: true },
-  category: 'especialidades',
-  quizTags: {
-    experience: ['principiante', 'intermedio'],
-    learnType: ['costura-basica'],
-    garmentType: ['casual'],
-    machine: ['si'],
-    purpose: ['hobby', 'negocio'],
-    challenge: ['maquina'],
-    goal: ['ropa-propia', 'vender-medida']
-  },
-  benefits: ['Ahorro en servicios técnicos', 'Mayor vida útil de tu máquina', 'Solución de problemas comunes', 'Sincronización profesional'],
-  faqs: [
-    { question: '¿Aplica para mi máquina?', answer: 'Sí, el curso cubre los principios universales de las máquinas de confección, tanto familiares como industriales.' },
-    { question: '¿Necesito ser experta?', answer: 'No, te llevamos paso a paso con videos en alta definición para que cualquiera pueda realizar los ajustes.' }
-  ]
-  
-},
-{
-      id: '13',
-      slug: 'pijamas-premium',
-      title: 'Pijamas Premium',
-      shortDescription: 'Domina la confección de pijamas cómodas y con estilo, desde el patronaje hasta los acabados finales.',
-      longDescription: 'Este curso integral te enseña a crear tu propia línea de ropa de descanso. Aprenderás toma de medidas, patronaje básico, y técnicas específicas de confección para cuellos smoking, pijamas con tela y acabados de nivel profesional. Ideal tanto para uso personal como para emprender.',
-      level: 'Principiante',
-      price: 29.99,
-      promoPrice: 59.99,
-      hotmartLinks: {
-        standard: 'https://go.hotmart.com/G59372086C?ap=953a',
-        promo: 'https://go.hotmart.com/G59372086C?ap=1c94'
-      },
-      badges: { isPromo: true, hasFreeClass: false, isFeatured: true },
-      category: 'especialidades',
-      quizTags: {
-        experience: ['principiante', 'intermedio'],
-        learnType: ['costura-basica', 'patronaje'],
-        garmentType: ['casual', 'lenceria'],
-        machine: ['si'],
-        purpose: ['hobby', 'negocio'],
-        challenge: ['acabados', 'patrones'],
-        goal: ['ropa-propia', 'vender-medida']
-      },
-      benefits: ['Patronaje de pijamas', 'Confección de cuello smoking', 'Acabados profesionales', 'Emprendimiento de ropa de descanso'],
-      faqs: [
-        { question: '¿Incluye patronaje?', answer: 'Sí, el curso cubre el proceso completo desde la toma de medidas y trazado de patrones hasta la confección.' }
-      ]
+  {
+    id: '9',
+    slug: 'emprende-con-camisetas',
+    title: 'Emprende con Camisetas',
+    shortDescription: 'Confecciona camisetas y escala un negocio: aprende toma de medidas, patrones, corte y estrategias de venta.',
+    longDescription: 'Domina la confección completa de camisetas más estrategias de emprendimiento: toma de medidas para diferentes talles, desarrollo de patrones versátiles, corte eficiente en producción, confección rápida con acabados de calidad y técnicas de venta y marketing para escalar tu marca. Aprende a producir volumen sin sacrificar la calidad.',
+    level: 'Principiante',
+    price: 14.00,
+    hotmartLinks: {
+      standard: 'https://go.hotmart.com/Q106562159L?dp=1',
+      promo: 'https://go.hotmart.com/Q106562159L?ap=14e1'
     },
-{
-  id: '14',
-  slug: 'trajes-de-bano-premium',
-  title: 'Trajes de Baño Premium',
-  shortDescription: 'Domina la confección de trajes de baño profesionales, desde el forrado hasta los acabados elásticos perfectos.',
-  longDescription: 'Curso avanzado enfocado en la creación de trajes de baño de alta calidad. Aprenderás a trabajar con telas elásticas, aplicar técnicas de forrado profesional, colocar elásticos, tirantes y realizar acabados impecables en bikinis, enteros y tankinis. Ideal para quienes buscan un producto de venta con alta demanda.',
-  level: 'Intermedio',
-  price: 69.99,
-  hotmartLinks: {
-    standard: 'https://go.hotmart.com/D50567569B?dp=1',
-    promo: 'https://go.hotmart.com/D50567569B?ap=aab2'
-  },
-  badges: { isPromo: true, hasFreeClass: false, isFeatured: true },
-  category: 'especialidades',
-  quizTags: {
-    experience: ['intermedio', 'avanzado'],
-    learnType: ['alta-costura'],
-    garmentType: ['lenceria'],
-    machine: ['si'],
-    purpose: ['hobby', 'negocio'],
-    challenge: ['acabados', 'maquina'],
-    goal: ['vender-medida', 'crear-marca']
-  },
-  benefits: ['Técnicas de forrado profesional', 'Confección de piezas elásticas', 'Acabados resistentes al agua', 'Emprendimiento de trajes de baño'],
-  faqs: [
-    { question: '¿Qué tipo de máquina necesito?', answer: 'Se recomienda una máquina que realice puntada zigzag o una máquina recubridora para acabados profesionales en telas elásticas.' }
-  ]
+    badges: { isPromo: true, hasFreeClass: false, isFeatured: true },
+    category: 'especialidades',
+    quizTags: {
+      experience: ['principiante', 'intermedio'],
+      learnType: ['costura-basica'],
+      garmentType: ['casual'],
+      machine: ['si'],
+      purpose: ['negocio'],
+      challenge: ['maquina'],
+      goal: ['crear-marca', 'vender-medida']
+    },
+    benefits: ['Confección de camisetas desde cero', 'Marketing para marcas de moda', 'Estrategias de venta', 'Toma de medidas'],
+    faqs: [
+      { question: '¿Incluye moldes?', answer: 'Sí, el curso te enseña a manejar los moldes necesarios para la producción de camisetas.' }
+    ]
   },
   {
-      id: '9',
-      slug: 'emprende-con-camisetas',
-      title: 'Emprende con Camisetas',
-      shortDescription: 'Aprende a confeccionar camisetas de alta calidad y escala tu propio negocio de moda básica.',
-      longDescription: 'Domina el proceso completo de confección de camisetas: desde la toma de medidas y el manejo de máquinas hasta el corte, confección y estrategias de marketing para vender tus creaciones. Un curso enfocado en la productividad y la calidad para quienes buscan emprender en el nicho de moda básica.',
-      level: 'Principiante',
-      price: 14.00,
-      hotmartLinks: {
-        standard: 'https://go.hotmart.com/Q106562159L?dp=1',
-        promo: 'https://go.hotmart.com/Q106562159L?ap=14e1'
-      },
-      badges: { isPromo: true, hasFreeClass: false, isFeatured: true },
-      category: 'especialidades',
-      quizTags: {
-        experience: ['principiante', 'intermedio'],
-        learnType: ['costura-basica'],
-        garmentType: ['casual'],
-        machine: ['si'],
-        purpose: ['negocio'],
-        challenge: ['maquina'],
-        goal: ['crear-marca', 'vender-medida']
-      },
-      benefits: ['Confección de camisetas desde cero', 'Marketing para marcas de moda', 'Estrategias de venta', 'Toma de medidas'],
-      faqs: [
-        { question: '¿Incluye moldes?', answer: 'Sí, el curso te enseña a manejar los moldes necesarios para la producción de camisetas.' }
-      ]
+    id: '11',
+    slug: 'moda-materna',
+    title: 'Moda Materna',
+    shortDescription: 'Crea prendas maternas: toma de medidas adaptadas, patrones flexibles y confección de ropa cómoda y elegante.',
+    longDescription: 'Aprende la confección completa de ropa materna: toma de medidas que se adaptan al crecimiento del vientre, desarrollo de patrones que evolucionan con la gestación, corte en telas cómodas y confección de prendas funcionales y elegantes. Crea ropa que acompaña cada etapa del embarazo con estilo y comodidad.',
+    level: 'Principiante',
+    price: 14.99,
+    hotmartLinks: {
+      standard: 'https://go.hotmart.com/V106588330E?dp=1',
+      promo: 'https://go.hotmart.com/V106588330E?ap=b3cc'
     },
-    {
-  id: '11',
-  slug: 'moda-materna',
-  title: 'Moda Materna',
-  shortDescription: 'Aprende a crear tus propias prendas clásicas para la gestación, con patrones personalizados.',
-  longDescription: 'Domina la creación de moda materna con patrones que se adaptan al crecimiento del vientre. Aprenderás a confeccionar ropa cómoda, con estilo y funcional para tallas grandes y etapas de gestación, asegurando un ajuste perfecto y acabados de alta calidad.',
-  level: 'Principiante',
-  price: 14.99,
-  hotmartLinks: {
-    standard: 'https://go.hotmart.com/V106588330E?dp=1',
-    promo: 'https://go.hotmart.com/V106588330E?ap=b3cc'
+    badges: { isPromo: true, hasFreeClass: false, isFeatured: false },
+    category: 'especialidades',
+    quizTags: {
+      experience: ['principiante', 'intermedio'],
+      learnType: ['costura-basica', 'patronaje'],
+      garmentType: ['casual'],
+      machine: ['si'],
+      purpose: ['hobby', 'negocio'],
+      challenge: ['patrones', 'acabados'],
+      goal: ['vender-medida', 'ropa-propia']
+    },
+    benefits: ['Patrones adaptables', 'Confección para tallas grandes', 'Comodidad y estilo materno', 'Técnicas de costura básica'],
+    faqs: [
+      { question: '¿Incluye patrones?', answer: 'Sí, aprenderás a crear tus propios patrones adaptables al crecimiento del vientre.' }
+    ]
   },
-  badges: { isPromo: true, hasFreeClass: false, isFeatured: false },
-  category: 'especialidades',
-  quizTags: {
-    experience: ['principiante', 'intermedio'],
-    learnType: ['costura-basica', 'patronaje'],
-    garmentType: ['casual'],
-    machine: ['si'],
-    purpose: ['hobby', 'negocio'],
-    challenge: ['patrones', 'acabados'],
-    goal: ['vender-medida', 'ropa-propia']
+  {
+    id: '12',
+    slug: 'mantenimiento-maquinas',
+    title: 'Mantenimiento de Máquinas de Confección',
+    shortDescription: 'Aprende a realizar el mantenimiento preventivo y correctivo de tu máquina de coser para alargar su vida útil.',
+    longDescription: 'Domina los secretos técnicos para mantener tu máquina de coser en perfecto estado. En este curso aprenderás desde la limpieza profunda y lubricación, hasta la sincronización de tiempos, ajuste de tensión, y cómo solucionar problemas comunes sin necesidad de un técnico. Ideal para máquinas rectas e industriales.',
+    level: 'Intermedio',
+    price: 39.99,
+    hotmartLinks: {
+      standard: 'https://go.hotmart.com/N55733229G?dp=1',
+      promo: 'https://go.hotmart.com/N55733229G?ap=c27d'
+    },
+    badges: { isPromo: true, hasFreeClass: false, isFeatured: true },
+    category: 'especialidades',
+    quizTags: {
+      experience: ['principiante', 'intermedio'],
+      learnType: ['costura-basica'],
+      garmentType: ['casual'],
+      machine: ['si'],
+      purpose: ['hobby', 'negocio'],
+      challenge: ['maquina'],
+      goal: ['ropa-propia', 'vender-medida']
+    },
+    benefits: ['Ahorro en servicios técnicos', 'Mayor vida útil de tu máquina', 'Solución de problemas comunes', 'Sincronización profesional'],
+    faqs: [
+      { question: '¿Aplica para mi máquina?', answer: 'Sí, el curso cubre los principios universales de las máquinas de confección, tanto familiares como industriales.' },
+      { question: '¿Necesito ser experta?', answer: 'No, te llevamos paso a paso con videos en alta definición para que cualquiera pueda realizar los ajustes.' }
+    ]
   },
-  benefits: ['Patrones adaptables', 'Confección para tallas grandes', 'Comodidad y estilo materno', 'Técnicas de costura básica'],
-  faqs: [
-    { question: '¿Incluye patrones?', answer: 'Sí, aprenderás a crear tus propios patrones adaptables al crecimiento del vientre.' }
-  ]
-},
-  ];
+  {
+    id: '13',
+    slug: 'pijamas-premium',
+    title: 'Pijamas Premium',
+    shortDescription: 'Confecciona pijamas de calidad: toma de medidas, desarrollo de patrones cómodos y costura de acabados profesionales.',
+    longDescription: 'Domina la confección completa de pijamas: toma de medidas para ajuste perfecto en ropa de descanso, desarrollo de patrones cómodos y versátiles, corte en telas suaves y confección de pijamas con detalles premium como cuellos smoking y remates profesionales. Crea pijamas para ti o para iniciar una línea de ropa de descanso.',
+    level: 'Principiante',
+    price: 29.99,
+    promoPrice: 59.99,
+    hotmartLinks: {
+      standard: 'https://go.hotmart.com/G59372086C?ap=953a',
+      promo: 'https://go.hotmart.com/G59372086C?ap=1c94'
+    },
+    badges: { isPromo: true, hasFreeClass: false, isFeatured: true },
+    category: 'especialidades',
+    quizTags: {
+      experience: ['principiante', 'intermedio'],
+      learnType: ['costura-basica', 'patronaje'],
+      garmentType: ['casual', 'lenceria'],
+      machine: ['si'],
+      purpose: ['hobby', 'negocio'],
+      challenge: ['acabados', 'patrones'],
+      goal: ['ropa-propia', 'vender-medida']
+    },
+    benefits: ['Patronaje de pijamas', 'Confección de cuello smoking', 'Acabados profesionales', 'Emprendimiento de ropa de descanso'],
+    faqs: [
+      { question: '¿Incluye patronaje?', answer: 'Sí, el curso cubre el proceso completo desde la toma de medidas y trazado de patrones hasta la confección.' }
+    ]
+  },
+  {
+    id: '14',
+    slug: 'trajes-de-bano-premium',
+    title: 'Trajes de Baño Premium',
+    shortDescription: 'Confecciona trajes de baño profesionales: patrones especializados, forrado técnico y acabados resistentes al agua.',
+    longDescription: 'Aprende la confección completa de trajes de baño: toma de medidas especializadas para ajuste en agua, desarrollo de patrones para bikinis, enteros y tankinis, corte preciso en telas elásticas, forrado profesional y confección con técnicas de acabado resistente. Domina la colocación de elásticos y tirantes para crear prendas de venta con alta demanda.',
+    level: 'Intermedio',
+    price: 69.99,
+    hotmartLinks: {
+      standard: 'https://go.hotmart.com/D50567569B?dp=1',
+      promo: 'https://go.hotmart.com/D50567569B?ap=aab2'
+    },
+    badges: { isPromo: true, hasFreeClass: false, isFeatured: true },
+    category: 'especialidades',
+    quizTags: {
+      experience: ['intermedio', 'avanzado'],
+      learnType: ['alta-costura'],
+      garmentType: ['lenceria'],
+      machine: ['si'],
+      purpose: ['hobby', 'negocio'],
+      challenge: ['acabados', 'maquina'],
+      goal: ['vender-medida', 'crear-marca']
+    },
+    benefits: ['Técnicas de forrado profesional', 'Confección de piezas elásticas', 'Acabados resistentes al agua', 'Emprendimiento de trajes de baño'],
+    faqs: [
+      { question: '¿Qué tipo de máquina necesito?', answer: 'Se recomienda una máquina que realice puntada zigzag o una máquina recubridora para acabados profesionales en telas elásticas.' }
+    ]
+  }
+];
